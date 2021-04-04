@@ -29,6 +29,16 @@ nav, header,footer{
     background-color:greenyellow;
     height: 100px;
 }
+nav{
+    display: flex;
+    background-color: black;
+    color:white;
+    align-content: center;
+    justify-content: space-between;
+}
+nav>div{
+    margin: 20px;
+}
 
 main{
     width: 70%;
@@ -52,4 +62,26 @@ section{
 article{
     border: 5px solid rgb(17, 3, 209);
     background-color:rgb(4, 178, 201);
+}
+
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+
+.logo, .button{
+    width:20%;
+    
+}
+
+.button{
+    
+}
+
+.logo{
+
+    
 }
