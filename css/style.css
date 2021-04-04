@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+}
+
+.outerBlock{
+    
+    height: 100vh;
+    width:100%;
+    
+    
+}
+
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.innerBlock{
+   display: flex;
+    border: 5px solid rgb(3, 165, 3);
+    background-color:greenyellow;
+    justify-content: space-evenly;
+}
+
+nav, header,footer{
+    border: 5px solid rgb(3, 165, 3);
+    background-color:greenyellow;
+    height: 100px;
+}
+
+main{
+    width: 70%;
+    border: 5px solid rgb(226, 193, 5);
+    background-color:rgb(225, 250, 2);
+    display: flex;
+    flex-direction:column;
+}
+
+aside{
+    width: 30%;
+    border: 5px solid rgb(226, 193, 5);
+    background-color:rgb(225, 250, 2);
+}
+
+section{
+    border: 5px solid rgb(17, 3, 209);
+    background-color:rgb(4, 178, 201);
+}
+
+article{
+    border: 5px solid rgb(17, 3, 209);
+    background-color:rgb(4, 178, 201);
+}
